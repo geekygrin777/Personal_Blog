@@ -1,0 +1,122 @@
+body{
+  font-size: 20px;
+}
+section{
+  width: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.section-heading{
+  color: blue;
+  font-size: 35px;
+}
+#about-section{
+  height: auto;
+  width: 100%;
+}
+#myphoto img{
+  height:250px;
+  width: 400px;
+}
+#about-profile{
+  color: gray;
+  width: 80%;
+}
+#education{
+  width:100%;  
+}
+#education img{
+  width:1000px;
+  height:500px;
+}
+#Skills{
+  width: 100%;
+}
+.skill-display{
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.skill-progress{
+  width: 11rem;
+  height: 2.2rem;
+  border-width: 1px;
+  background-color: grey;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px 1px grey inset;
+    margin: 22px;
+    overflow: hidden;
+  
+}
+.skill-progress>div{
+  border-radius: 20px 0px 0px 20px; 
+  box-shadow: 1px 1px 5px 2px lightslategray;
+}
+.skill-name span{
+  color: white;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 1rem;
+  }
+.col-3{
+  float:left;
+  width: 30% ;
+}
+#Favorite{
+  width: 100%;
+}
+.col-2{
+  float: left;
+  width: 45%;
+  margin: 20px;
+  padding: 10px;
+}
+.col-2 img{
+  width: 500px;
+  border: 2px solid black;
+  height: 500px;
+  object-fit: contain;
+}
+#Favorite span{
+  margin:20px;
+}
+#Portfolio .col-3{
+  width: 31.7%;
+  margin: 10px;
+}
+.Portfolio-display{
+  margin-bottom:30px ;
+  padding: 0 50px;
+}
+.Portfolio-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.Portfolio-img img{
+  width: 380px;
+  height: 300px;
+  
+}
+.Portfolio-text{
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  height: 100%;
+  color: transparent;
+  width:100% ;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+}
+.Portfolio-img:hover{
+  box-shadow: 0 0 10px lightslategray; 
+}
+.Portfolio-img: hover .Portfolio-text {
+  background-color:lightgray;
+  opacity: 0.8;
+  color:white;
+  
+}
